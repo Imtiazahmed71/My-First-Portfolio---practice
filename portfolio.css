@@ -102,3 +102,52 @@ nav li a{
     margin-bottom: 30px;
     line-height: 30px;
 }
+/* About Section */
+#about{
+    /* width: 71%;
+    max-width: 1140px;
+    margin: o auto; */
+    padding-top: 130px;
+}
+#about .about-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 130px 150px;
+    background-color: #FFF8F3;
+}
+#about .section-heading h4{
+    font-size:35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 30px;
+
+}
+#about .section-heading p{
+    font-size:18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+    
+}
+/*  box a <p> ar vitore line thik orar jonno eta use kora hoy */
+.section-heading{
+    max-width: 827px;
+}
+.about-info{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+.info-card p{
+    font-size: 20px;
+    line-height: 30px;
+    color: #757575;
+}
+.info-card h2{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    color: black;
+}
