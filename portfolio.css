@@ -25,10 +25,15 @@
 
 /* Main style */
  header{
-    background-color: blanchedalmond;
+    background-color: #FFF8F3;
+    background: url("developer.png") ,url("header_bg.png"), #FFF8F3 ;
+    /* background: url("header_bg.png") , #FFF8F3; */
+    background-repeat: no-repeat;
+    background-position: top left , bottom right;
     /* uporer space ar jonno */
     padding-top: 50px;
  }
+ 
 nav{
     width: 71%;
     max-width: 1140px;
@@ -54,6 +59,7 @@ nav ul{
     border: none;
     border-radius: 5px;
     color: white;
+    cursor: pointer;
 }
 
 /*  list like fota uthanor jonno */
@@ -68,7 +74,7 @@ nav li a{
 }
 
 #banner{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 46px 38px 0px 230px;
     max-width: 1600px;
     display: flex;
