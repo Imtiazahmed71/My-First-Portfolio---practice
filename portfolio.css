@@ -1,16 +1,98 @@
+/* header{
+    max-width: 1600px;
+} */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/* shared Style */
 .open-sans{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  /* font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100; */
 }
-/* nav{
-    background-color: blue;
-} */
+.logo h2{
+    font-size: 45px;
+    font-weight: 900px;
+    
+}
+
+.color-orange{
+    color: #FD6E0A;
+}
+
+
+
+/* Main style */
+ header{
+    background-color: blanchedalmond;
+    /* uporer space ar jonno */
+    padding-top: 50px;
+ }
+nav{
+    width: 71%;
+    max-width: 1140px;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+     gap: 51px;
+     color: #474747;
+     font-size: 20px;
+    align-items: center;
+
+
+}
+.btn{
+    padding: 18px 36px;
+    font-size: 20px;
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+/*  list like fota uthanor jonno */
+nav li{
+    list-style: none;
+    margin-right: 15px;
+}
+
+/* underline uthanor jonno */
+nav li a{
+    text-decoration: none;
+}
+
+#banner{
+    border: 1px solid red;
+    margin: 46px 38px 0px 230px;
+    max-width: 1600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-content{
+    max-width: 585px;
+}
+.banner-content h2{
+    font-size: 45px;
+    font-weight: 600px;
+    color: #474747;
+    margin-bottom: 5px;
+}
+.banner-content h1{
+    font-size: 85px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+.banner-content p{
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
