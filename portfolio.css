@@ -26,7 +26,7 @@
 /* Main style */
  header{
     background-color: #FFF8F3;
-    background: url("developer.png") ,url("header_bg.png"), #FFF8F3 ;
+    background: url("images/developer.png") ,url("images/header_bg.png"), #FFF8F3 ;
     /* background: url("header_bg.png") , #FFF8F3; */
     background-repeat: no-repeat;
     background-position: top left , bottom right;
@@ -150,4 +150,20 @@ nav li a{
     font-weight: bold;
     line-height: 30px;
     color: black;
+}
+#skills{
+    padding-top: 130px;
+}
+#skills .skills-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0% auto;
+    text-align: center;
+}
+#skills .skills-container .section-heading{
+
+}
+.skill-box{
+    display: flex;
+    justify-content: space-between;
 }
